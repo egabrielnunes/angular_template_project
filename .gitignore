@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+node_modules
+_docs
+app/www/*
+src/bower_components/*

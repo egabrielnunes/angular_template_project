@@ -1,0 +1,28 @@
+{
+  "name": "trippics_phonegap",
+  "version": "0.0.1",
+  "description": "Trippics App Project using Cordova",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Trippics/trippics_phonegap.git"
+  },
+  "author": "Demian Borba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Trippics/trippics_phonegap/issues"
+  },
+  "homepage": "https://github.com/Trippics/trippics_phonegap",
+  "devDependencies": {
+    "browser-sync": "^1.3.6",
+    "gulp": "^3.8.8",
+    "gulp-concat": "^2.4.0",
+    "gulp-jshint": "^1.8.4",
+    "gulp-minify-css": "^0.3.8",
+    "gulp-notify": "^1.5.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^0.7.3",
+    "gulp-uglify": "^1.0.1",
+    "gulp-util": "^3.0.1",
+    "jshint-stylish": "^0.4.0"
+  }
+}

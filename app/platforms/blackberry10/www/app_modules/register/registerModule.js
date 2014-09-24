@@ -1,0 +1,1 @@
+!function(){"use strict";angular.module("tp.register",[]).controller("RegisterCtrl",function(){}).controller("RegisterChoosePhotoCtrl",function(){}).controller("RegisterChooseCityCtrl",function(){})}();

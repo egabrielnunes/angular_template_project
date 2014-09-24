@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <link rel="stylesheet" type="text/css" href="app_modules/components/components.css" />
+    <!-- javascript cordova -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <!-- javascript libs -->
+    <script type="text/javascript" src="bower_components/fastclick/lib/fastclick.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="bower_components/angular-animate/angular-animate.js"></script>
+    <script type="text/javascript" src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script type="text/javascript" src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <!-- javascript app -->
+    <script type="text/javascript" src="app.js"></script>
+    <!-- javascript modules -->
+    <script type="text/javascript" src="app_modules/components/componentsModule.js"></script>
+    <script type="text/javascript" src="app_modules/locale/localeModule.js"></script>
+    <script type="text/javascript" src="app_modules/main/mainModule.js"></script>
+    <script type="text/javascript" src="app_modules/facebook/openfb.js"></script>
+    <script type="text/javascript" src="app_modules/facebook/facebookModule.js"></script>
+    <script type="text/javascript" src="app_modules/login/loginModule.js"></script>
+    <script type="text/javascript" src="app_modules/register/registerModule.js"></script>
+    <script type="text/javascript" src="app_modules/user/userModule.js"></script>
+    <script type="text/javascript" src="app_modules/termsandconditions/termsAndConditionsModule.js"></script>
+    <script type="text/javascript" src="app_modules/privacypolicy/privacyPolicyModule.js"></script>
+    <!-- title -->
+    <title>Trippics App</title>
+</head>
+
+<body onload="prepareApp()">
+
+    <ng-view></ng-view>
+
+    <script>
+        var prepareApp = function () {
+            // only bootstrap the angular app when device is ready
+            document.addEventListener("deviceready", function () {
+                angular.bootstrap(document, ['tp.app']);
+            }, false);
+
+            // set fastclick
+            FastClick.attach(document.body);
+        }
+    </script>
+
+    <!--Google Analytics
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');    
+          ga('create', 'UA-XXX-X', 'app.trippics.com');
+          ga('send', 'pageview');
+    </script>
+    -->
+
+</body>
+
+</html>

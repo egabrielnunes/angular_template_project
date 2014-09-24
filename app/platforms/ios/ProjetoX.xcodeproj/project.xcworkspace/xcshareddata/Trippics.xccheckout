@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>90E27227-02F2-4949-BB81-2D2934AE0B7A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Trippics</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F68063B4-D2B4-4071-AD90-D01E9FDA6475</key>
+		<string>https://github.com/Trippics/trippics_phonegap.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>app/platforms/ios/Trippics.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F68063B4-D2B4-4071-AD90-D01E9FDA6475</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Trippics/trippics_phonegap.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F68063B4-D2B4-4071-AD90-D01E9FDA6475</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F68063B4-D2B4-4071-AD90-D01E9FDA6475</string>
+			<key>IDESourceControlWCCName</key>
+			<string>trippics_phonegap</string>
+		</dict>
+	</array>
+</dict>
+</plist>

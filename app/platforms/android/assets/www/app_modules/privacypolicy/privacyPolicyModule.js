@@ -1,0 +1,1 @@
+!function(){"use strict";angular.module("tp.privacypolicy",["tp.locale"]).controller("PrivacyPolicyCtrl",function($scope,LanguageService){$scope.privacyPolicy=LanguageService.getLanguageJSON().Privacy_Policy_Text})}();

@@ -1,0 +1,22 @@
+{
+  "name": "trippics_phonegap",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Trippics/trippics_phonegap",
+  "authors": [
+    "Demian Borba <demian.borba@actioncreations.com>"
+  ],
+  "description": "Trippics App Project using Cordova",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/bower_components"
+  ],
+  "dependencies": {
+    "fastclick": "~1.0.3",
+    "angular": "~1.2.24",
+    "angular-route": "~1.2.24",
+    "angular-animate": "~1.2.24",
+    "angular-sanitize": "~1.2.24"
+  }
+}

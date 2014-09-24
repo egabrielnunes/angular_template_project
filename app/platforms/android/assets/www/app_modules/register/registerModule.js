@@ -1,0 +1,1 @@
+!function(){"use strict";angular.module("tp.register",[]).controller("RegisterCtrl",function($scope){$scope.onServiceTerms=function(){window.location.href="#/service-terms"},$scope.onPrivacyPolicy=function(){window.location.href="#/privacy-policy"}}).controller("RegisterChoosePhotoCtrl",function(){}).controller("RegisterChooseCityCtrl",function(){})}();

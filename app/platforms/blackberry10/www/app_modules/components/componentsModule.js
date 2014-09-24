@@ -1,0 +1,1 @@
+!function(){"use strict";angular.module("tp.components",[]).directive("btTrippics",function(){return{restrict:"E",scope:{label:"@",color:"@",tap:"&"},template:'<button ng-click="tap()">{{label}}</button><h1 class="{{color}}">{{color}}</h1>'}})}();

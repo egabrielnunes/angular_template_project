@@ -1,0 +1,1 @@
+!function(){"use strict";angular.module("tp.main",["tp.locale"]).controller("MainCtrl",function(LanguageService){LanguageService.findLanguage().then(function(language){alert(language)},function(){console.log("Error getting language, possibly because there is no cordova plugin.")})}).controller("RegisterLoginCtrl",function(){})}();

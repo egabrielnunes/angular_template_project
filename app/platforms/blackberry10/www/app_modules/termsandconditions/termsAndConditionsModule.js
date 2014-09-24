@@ -1,0 +1,1 @@
+!function(){"use strict";angular.module("tp.termsandconditions",[]).controller("TermsAndConditionsCtrl",function(){})}();

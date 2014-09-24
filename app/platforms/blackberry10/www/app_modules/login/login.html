@@ -1,0 +1,18 @@
+<h1>Result: {{user}}</h1>
+
+<h1>Log In</h1>
+
+<div>
+    <button ng-click="loginWithFacebook()">Login with Facebook</button>
+</div>
+
+<hr>
+
+<div>
+    <form action="" ng-submit="loginWithEmail()">
+        <input type="text" placeholder="Email" ng-model="form.username" required>
+        <input type="password" placeholder="Password" ng-model="form.password" required>
+        <button type="submit">Enter</button>
+    </form>
+</div>
+
