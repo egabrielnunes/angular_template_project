@@ -2,6 +2,6 @@
     'use strict';
 
     angular.module('tp.main', [])
-    .controller('MainCtrl', function () {});      
+    .controller('MainCtrl', function () {})      
     .factory('MainService', function () {});
 }());
