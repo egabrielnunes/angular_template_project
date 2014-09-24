@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('tp.main', ['tp.locale'])
+    angular.module('tp.main', [])
 
     .controller('MainCtrl', function ($scope, LanguageService) {
 
