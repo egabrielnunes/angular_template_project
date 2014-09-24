@@ -2,7 +2,7 @@
 
 <h2>Instructions</h2>
 	
-<h5>1. Install NodeJS</h5>
+<h4>1. Install NodeJS</h4>
 <h6>With NodeJS you can use npm(node package manager) to install js frameworks and command line tools</h6>
 
 <h5>2. Install NodeJS Dependecies</h5>
